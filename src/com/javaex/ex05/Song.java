@@ -21,6 +21,18 @@ public class Song {
 		this.year = year;
 		this.track = track;
 	}
+	
+	
+	public Song(String title, String artist, String album, String composer, int year) {
+		
+	}
+
+
+		
+	
+	
+	
+	
 
 	public String getTitle() {
 		return title;

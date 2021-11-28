@@ -24,6 +24,11 @@ public class PointApp {
 		point3.draw();
 		
 	
+		Point p03 = new Point(55,65);
+		p03.draw(true);
+		p03.draw(false);
+		p03.draw();
+		
 		
 		
 	}

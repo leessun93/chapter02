@@ -5,7 +5,7 @@ public class Goods {
 	// 필드
 	private String name;
 	private int price;
-
+	private int totalcount;
 	// 생성자
 	public Goods() {
 		System.out.println("Goods()");
@@ -44,8 +44,18 @@ public class Goods {
 	
 	
 	
-	// 메소드 일반
+	public int getTotalcount() {
+		return totalcount;
+	}
 
+
+	public void setTotalcount(int totalcount) {
+		this.totalcount = totalcount;
+	}
+
+
+	// 메소드 일반
+	@Override
 	public String toString() {
 		return "Goods [name=" + name + ", price=" + price + "]";
 	}

@@ -61,7 +61,7 @@ public class Song {
 		System.out.println(title + artist + "(" + album + "," + year + "," + track + "번트랙" + composer + "작곡"+")");
 	}
 
-	@Override
+
 	public String toString() {
 		return "Song [title=" + title + ", artist=" + artist + ", album=" + album + ", composer=" + composer + ", year="
 				+ year + ", track=" + track + "]";
