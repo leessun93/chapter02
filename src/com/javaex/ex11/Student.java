@@ -11,6 +11,18 @@ public class Student extends Person { // 연결해주는 코드 상속받는다 
 	public Student(String schoolName) {
 		 this.schoolName = schoolName;
 	}
+	
+	public Student(String name, int age, String schoolname) {
+		super.setName(name);
+		super.setAge(age);
+		
+		
+		//private로 막혀서 안보임
+		//super.name = name;
+		//super.age = age;
+		this.schoolName = schoolname;
+				
+	}
 //겟셋
 	public String getSchoolName() {
 		return schoolName;

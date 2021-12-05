@@ -30,6 +30,12 @@ public class PersonApp {
 		System.out.println(s01.getName());
 		System.out.println(s01.getAge());
 		System.out.println(s01.getSchoolName());
+		
+		
+		
+		
+//		Student s02 = new Student("서장훈", 50, "강남고등학교");
+//		Student s03 = new Student("강남고등학교");		
 
 }
 }
